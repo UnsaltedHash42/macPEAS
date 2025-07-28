@@ -5,7 +5,7 @@
 | **Phase 1: Core Foundation** |  |  |  |  |  |  |
 | 1.1 | Create TaskRunner utility class | None | Complete | High | 2h | Central class for running shell commands. |
 | 1.2 | Create data models for all modules | None | Complete | High | 3h | SystemInfo, User, Group, NetworkInfo, etc. |
-| T1.1 | Write unit tests for TaskRunner | 1.1 | Pending | High | 1h | Test command execution and output parsing. |
+| T1.1 | Write unit tests for TaskRunner | 1.1 | Complete | High | 1h | Test command execution and output parsing. |
 | C1 | Core Foundation Complete | 1.1, 1.2, T1.1 | Pending |  |  | Base classes and utilities are ready. |
 | **Phase 2: UI and Data Collection** |  |  |  |  |  |  |
 | 2.1 | Build basic UI with sidebar and table view | C1 | Pending | High | 4h | Use NSOutlineView and NSTableView. |
