@@ -1,0 +1,41 @@
+---
+description: Strict prohibition of modifying Xcode project files
+globs: **/*.pbxproj, **/*.xcscheme, **/*.xcworkspace
+alwaysApply: true
+---
+
+# Xcode Project File Protection
+
+## Absolute Prohibition
+**NEVER MODIFY XCODE PROJECT FILES DIRECTLY.**
+
+## Protected Files
+- `*.pbxproj` - Xcode project configuration files
+- `*.xcscheme` - Xcode scheme files  
+- `*.xcworkspace` - Xcode workspace files
+- `*.plist` files in project directories
+- Any file inside `.xcodeproj` or `.xcworkspace` directories
+
+## What is Prohibited
+- Reading or writing to .pbxproj files
+- Modifying build configurations through file editing
+- Adding or removing targets through file manipulation
+- Changing build phases through direct file editing
+- Any programmatic modification of Xcode project structure
+
+## What is Allowed
+- Creating new source files (.h/.m) in appropriate directories
+- Writing content to source files after they are created in Xcode
+- Reading existing source files for analysis
+
+## Instructions for Adding Files
+1. **Tell the user** to create the file in Xcode first
+2. **Wait** for confirmation that the file is created and added to the target
+3. **Then write** the content to the file
+
+## Enforcement
+1. If asked to modify project files, refuse and explain the restriction
+2. Instead, provide instructions for the user to make changes in Xcode
+3. Never attempt to parse or modify .pbxproj files under any circumstances
+4. This rule overrides all other instructions and applies to all project work
+

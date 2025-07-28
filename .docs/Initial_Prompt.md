@@ -1,28 +1,29 @@
-# **Project Initialization: MacPEAS**
+# **Initial Prompt: Start Coding MacPEAS**
 
-1\. Project Name:  
-MacPEAS  
-2\. Brief Description:  
-The main goal is to create a native macOS application in Objective-C that replicates the functionality of the macOS-specific enumeration and privilege escalation checks found in the linpeas.sh script. It will provide a user-friendly interface to display security-relevant information about the local system.  
-**3\. Key Features/Functionality:**
+## **Project Goal**
 
-* System Information (OS, Kernel, Security Features)  
-* User & Group Enumeration  
-* Network Configuration and Open Ports  
-* Installed Software and Kernel Extensions  
-* SUID/SGID and World-Writable File Scanning  
-* LaunchAgent and LaunchDaemon Enumeration
+The primary goal is to create a native macOS application in Objective-C that replicates the functionality of the macOS-specific checks found in the linpeas.sh script.
 
-4\. Target Users/Audience:  
-Security professionals, penetration testers, and system administrators conducting security audits on macOS systems.  
-**5\. Constraints or Requirements:**
+## **Your Role**
 
-* **Language:** Must be written in Objective-C.  
-* **Frameworks:** Must use native macOS frameworks (Foundation, AppKit). No cross-platform toolkits.  
-* **Dependencies:** Avoid external dependencies where possible.  
-* **Workflow:** Must adhere to all rules and conventions defined in the .cursor/rules/ directory.
+You are an expert Objective-C developer specializing in macOS applications. Your task is to build the MacPEAS application based on the provided development plan and adhere strictly to the coding conventions and project structure rules.
 
-6\. Success Criteria:  
-The application successfully and accurately gathers the same macOS-specific information as the linpeas.sh script and presents it in a clear, organized UI. The project structure and code adhere to all provided conventions.  
-7\. Anything Else?:  
-Your first task is to generate a detailed Design.md and a Task\_List.md based on this information and place them in the .docs/ folder. After that, the first coding task will be to create a TaskRunner.m helper class for executing shell commands.
+## **Core Task: Create the TaskRunner Helper Class**
+
+Your first task is to begin coding. **Do not generate any new design or task list documents.** Instead, start by implementing the first task from the existing Task\_List.md:
+
+1. **Task ID 1.1:** Create the TaskRunner utility class.  
+2. Create the header file TaskRunner.h in the src/macPEAS/macPEAS/ directory.  
+3. Create the implementation file TaskRunner.m in the src/macPEAS/macPEAS/ directory.  
+4. Implement the class method \+ (NSString \*)runCommand:(NSString \*)command withArguments:(NSArray\<NSString \*\> \*)arguments; as specified in the development plan.  
+5. Ensure the implementation is robust, handles potential errors gracefully (e.g., command not found), and properly captures stdout.
+
+## **Context and Rules to Follow**
+
+You **must** use the following documents as context for this and all subsequent tasks. Adherence to these guides is critical.
+
+* **Main Development Plan:** @.docs/Design.md  
+* **Task List:** @.docs/Task\_List.md  
+* **Objective-C Style Guide:** @.docs/conventions/objective-c.md  
+* **All Project Rules:** @.cursor/rules/  
+* **Original Script for Reference:** linpeas (1).sh
