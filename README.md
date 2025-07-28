@@ -1,61 +1,40 @@
-# Cursor Project Template
+# **MacPEAS \- macOS Enumeration Tool**
 
-A simple template to help you start new projects with Cursor AI and development containers.
+MacPEAS is a native macOS application for security enumeration and privilege escalation checking. It is designed to be a fast, comprehensive tool for security professionals and system administrators to audit the security posture of a macOS system.
 
-## Prerequisites
+This project is an Objective-C rewrite of the macOS-specific checks found in the highly-regarded linpeas.sh script.
 
-Make sure you have these installed on your computer:
+## **Features**
 
-- **Cursor** (or Visual Studio Code) - your code editor
-- **Dev Container extension** - adds container support to your editor
-- **Docker Desktop** - must be installed and running
+* **System Information:** Gathers details about the OS, kernel, and active security mechanisms like SIP and Gatekeeper.  
+* **User & Group Enumeration:** Lists all users, groups, and analyzes password policies and login history.  
+* **Network Analysis:** Scans for open ports, running services, and network configurations.  
+* **Software Inventory:** Identifies installed applications, third-party kernel extensions, and Homebrew packages.  
+* **Permission Auditing:** Scans for SUID/SGID binaries and world-writable files that could be vectors for privilege escalation.  
+* **Startup Item Enumeration:** Lists all LaunchAgents and LaunchDaemons to identify persistence mechanisms.
 
-## Getting Started
+## **Getting Started**
 
-### 1. Create Your Project
-1. Copy this entire folder to a new location on your computer
-2. **Remove the `.git` folder** - This ensures you start with a clean git history for your new project
-3. Rename the folder to whatever you want to call your project
-4. Open the folder in Cursor or VS Code
+### **Prerequisites**
 
-### 2. Start the Development Environment
-1. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the command palette
-2. Type "Dev Containers: Rebuild Container" and press Enter
-3. Wait for the setup to complete (this may take a few minutes the first time)
+* Xcode 13 or later  
+* macOS Monterey (12.0) or later
 
-![Dev Container Setup](.docs/images/devcontainer.png)
+### **Building the Project**
 
-### 3. Tell AI About Your Project
-1. Open the file `.docs/Initial_Prompt.md`
-2. Write down what you want to build and any specific requirements
-3. The AI will help you set up and develop your project
+1. Clone the repository.  
+2. Open the MacPEAS.xcodeproj file in Xcode.  
+3. Select the MacPEAS scheme and a build target (e.g., "My Mac").  
+4. Press **Cmd+B** to build the project or **Cmd+R** to build and run.
 
-## Important Information
+## **Roadmap**
 
-**Don't delete or move these folders** - they're needed for the template to work:
-- `.docs/` - project documentation and AI prompts
-- `.cursor/` - Cursor-specific settings
-- `.devcontainer/` - development container configuration
-- `.tests/` - testing setup
+* \[ \] **Feature Parity:** Ensure all relevant macOS checks from linpeas.sh are implemented.  
+* \[ \] **Data Export:** Add functionality to export enumeration results to JSON or plain text.  
+* \[ \] **Mythic Agent Integration:** Develop a module to allow the MacPEAS enumeration capabilities to be triggered from a Mythic C2 agent.
 
-These folders are automatically hidden from version control, so you don't need to worry about them.
+## **Acknowledgements**
 
-## Important Note
+This project is heavily inspired by and based on the work of **Carlos Polop** and the entire **PEASS-ng** project. A huge thank you for creating such an invaluable tool for the security community.
 
-**If you're using Visual Studio Code instead of Cursor**: Change the `.cursor/` folder name to `.vscode/` for proper VS Code integration.
-
-## Troubleshooting
-
-If something isn't working:
-
-1. **Docker Desktop**: Make sure it's running (and has been run at least once before)
-2. **Extensions**: Check that the Dev Container extension is installed in your editor
-3. **Container Issues**: Try rebuilding the container from the command palette
-4. **Still Stuck?**: Check the Docker Desktop logs or restart your editor
-
----
-
-
-
-
-
+* **PEASS-ng Project:** [https://github.com/carlospolop/PEASS-ng](https://github.com/carlospolop/PEASS-ng)
