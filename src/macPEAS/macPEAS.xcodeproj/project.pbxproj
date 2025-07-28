@@ -56,16 +56,17 @@
 		8F20581E2E37296700094E2E /* TaskRunner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TaskRunner.m; path = macPEAS/TaskRunner.m; sourceTree = "<group>"; };
 		8F20581F2E37296700094E2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = macPEAS/main.m; sourceTree = "<group>"; };
 		8F2058202E37296700094E2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = macPEAS/AppDelegate.m; sourceTree = "<group>"; };
+		8FBC9F382E373096005C31FE /* TaskRunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskRunnerTests.m; sourceTree = "<group>"; };
 		9F2341CBA979A417B284366B /* TaskRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TaskRunner.h; path = macPEAS/TaskRunner.h; sourceTree = SOURCE_ROOT; };
 		A5F04B45A18EA853712FBF45 /* MPCSystemInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPCSystemInfo.h; path = macPEAS/Models/MPCSystemInfo.h; sourceTree = SOURCE_ROOT; };
 		B73B489E8C16F4F35D92E15D /* MPCGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MPCGroup.m; path = macPEAS/Models/MPCGroup.m; sourceTree = SOURCE_ROOT; };
 		CD924B40A89967BB4CA77546 /* MPCKernelExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MPCKernelExtension.m; path = macPEAS/Models/MPCKernelExtension.m; sourceTree = SOURCE_ROOT; };
-		CE304DE3A397C1E970D4651B /* TaskRunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TaskRunnerTests.m; path = src/macPEAS/macPEASTests/TaskRunnerTests.m; sourceTree = SOURCE_ROOT; };
+		CE304DE3A397C1E970D4651B /* TaskRunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TaskRunnerTests.m; path = macPEASTests/TaskRunnerTests.m; sourceTree = SOURCE_ROOT; };
 		EC6D4E08BE30C0F643A0F751 /* TaskRunner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TaskRunner.m; path = macPEAS/TaskRunner.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		8F2058352E372B9100094E2E = {
+		8F2058352E372B9100094E2E /* Exceptions for "macPEAS" folder in "Compile Sources" phase from "macPEAS" target */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			buildPhase = 8F08779E2E36FE4C00A02DB3 /* Sources */;
 			membershipExceptions = (
@@ -85,7 +86,14 @@
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8F0877A42E36FE4C00A02DB3 /* macPEAS */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (8F2058352E372B9100094E2E, ); path = macPEAS; sourceTree = "<group>"; };
+		8F0877A42E36FE4C00A02DB3 /* macPEAS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8F2058352E372B9100094E2E /* Exceptions for "macPEAS" folder in "Compile Sources" phase from "macPEAS" target */,
+			);
+			path = macPEAS;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,7 @@
 		8F0877992E36FE4C00A02DB3 = {
 			isa = PBXGroup;
 			children = (
+				8FBC9F392E373096005C31FE /* macPEASTests */,
 				8F2058202E37296700094E2E /* AppDelegate.m */,
 				8F20581F2E37296700094E2E /* main.m */,
 				8F20581E2E37296700094E2E /* TaskRunner.m */,
@@ -129,6 +138,14 @@
 				8F0877A22E36FE4C00A02DB3 /* macPEAS.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8FBC9F392E373096005C31FE /* macPEASTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC9F382E373096005C31FE /* TaskRunnerTests.m */,
+			);
+			path = macPEASTests;
 			sourceTree = "<group>";
 		};
 		A3BC42CC826DAA17FFA58B50 /* Models */ = {
