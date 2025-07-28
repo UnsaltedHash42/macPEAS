@@ -17,6 +17,7 @@
 		5A1C4A8CB416E832D6A2F730 /* MPCFileSystemItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B4241C7877629F49496229E /* MPCFileSystemItem.h */; };
 		66274C8F9FB4D2A20B8B012F /* MPCGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B73B489E8C16F4F35D92E15D /* MPCGroup.m */; };
 		67F244239D4619C58970AC5D /* MPCSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 283D4DF2B2CBC792F7F9DE1B /* MPCSystemInfo.m */; };
+		8037467BA0386F6CCCC6051F /* SystemInfoCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE44F73B2C7143D49D7D983 /* SystemInfoCollector.m */; };
 		842F42DB9020AB7D11DE8BC3 /* MPCLaunchItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 468D427D8C3CA0AF4E472532 /* MPCLaunchItem.h */; };
 		8F20582C2E372B9100094E2E /* TaskRunner.h in Sources */ = {isa = PBXBuildFile; fileRef = 9F2341CBA979A417B284366B /* TaskRunner.h */; };
 		8F20582D2E372B9100094E2E /* MPCSystemInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = A5F04B45A18EA853712FBF45 /* MPCSystemInfo.h */; };
@@ -34,6 +35,7 @@
 		E03A447E9956E8B933F2927F /* MPCSystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B24E2BA1E085183552A752 /* MPCSystemInfo.h */; };
 		E1DE4B449C493839CEB92745 /* TaskRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE304DE3A397C1E970D4651B /* TaskRunnerTests.m */; };
 		FB33482F8409F583B69F5189 /* MPCApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 61AB456D9553EFC0D8BEB366 /* MPCApplication.h */; };
+		FCF046BD8D90E143581ED9CE /* SystemInfoCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = 910E4352B276FBE9F8D26AE4 /* SystemInfoCollector.h */; };
 		FFC349D58380B0F6B504E57E /* MPCNetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2C4ECDA5224E14E9C18194 /* MPCNetworkInfo.m */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,7 @@
 		283D4DF2B2CBC792F7F9DE1B /* MPCSystemInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MPCSystemInfo.m; path = macPEAS/Models/MPCSystemInfo.m; sourceTree = SOURCE_ROOT; };
 		3B7C4AD8A7E1DE68B3E9209F /* MPCSystemInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MPCSystemInfo.m; path = macPEAS/Models/MPCSystemInfo.m; sourceTree = SOURCE_ROOT; };
 		3E2C4ECDA5224E14E9C18194 /* MPCNetworkInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MPCNetworkInfo.m; path = macPEAS/Models/MPCNetworkInfo.m; sourceTree = SOURCE_ROOT; };
+		3FE44F73B2C7143D49D7D983 /* SystemInfoCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SystemInfoCollector.m; path = src/macPEAS/macPEAS/Collectors/SystemInfoCollector.m; sourceTree = SOURCE_ROOT; };
 		468D427D8C3CA0AF4E472532 /* MPCLaunchItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPCLaunchItem.h; path = macPEAS/Models/MPCLaunchItem.h; sourceTree = SOURCE_ROOT; };
 		551E432A9272C3106D08D0C8 /* MPCKernelExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPCKernelExtension.h; path = macPEAS/Models/MPCKernelExtension.h; sourceTree = SOURCE_ROOT; };
 		56D64569A8151725C49F9843 /* MPCUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MPCUser.m; path = macPEAS/Models/MPCUser.m; sourceTree = SOURCE_ROOT; };
@@ -57,6 +60,7 @@
 		8F20581F2E37296700094E2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = macPEAS/main.m; sourceTree = "<group>"; };
 		8F2058202E37296700094E2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = macPEAS/AppDelegate.m; sourceTree = "<group>"; };
 		8FBC9F382E373096005C31FE /* TaskRunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskRunnerTests.m; sourceTree = "<group>"; };
+		910E4352B276FBE9F8D26AE4 /* SystemInfoCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SystemInfoCollector.h; path = src/macPEAS/macPEAS/Collectors/SystemInfoCollector.h; sourceTree = SOURCE_ROOT; };
 		9F2341CBA979A417B284366B /* TaskRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TaskRunner.h; path = macPEAS/TaskRunner.h; sourceTree = SOURCE_ROOT; };
 		A5F04B45A18EA853712FBF45 /* MPCSystemInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPCSystemInfo.h; path = macPEAS/Models/MPCSystemInfo.h; sourceTree = SOURCE_ROOT; };
 		B73B489E8C16F4F35D92E15D /* MPCGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MPCGroup.m; path = macPEAS/Models/MPCGroup.m; sourceTree = SOURCE_ROOT; };
@@ -66,7 +70,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		8F2058352E372B9100094E2E /* Exceptions for "macPEAS" folder in "Compile Sources" phase from "macPEAS" target */ = {
+		8F2058352E372B9100094E2E = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			buildPhase = 8F08779E2E36FE4C00A02DB3 /* Sources */;
 			membershipExceptions = (
@@ -86,14 +90,7 @@
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8F0877A42E36FE4C00A02DB3 /* macPEAS */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				8F2058352E372B9100094E2E /* Exceptions for "macPEAS" folder in "Compile Sources" phase from "macPEAS" target */,
-			);
-			path = macPEAS;
-			sourceTree = "<group>";
-		};
+		8F0877A42E36FE4C00A02DB3 /* macPEAS */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (8F2058352E372B9100094E2E, ); path = macPEAS; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				A3BC42CC826DAA17FFA58B50 /* Models */,
+				DD864AA8AD06CD6516B5F11B /* Collectors */,
 			);
 			name = macPEAS;
 			sourceTree = "<group>";
@@ -171,6 +169,15 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		DD864AA8AD06CD6516B5F11B /* Collectors */ = {
+			isa = PBXGroup;
+			children = (
+				910E4352B276FBE9F8D26AE4 /* SystemInfoCollector.h */,
+				3FE44F73B2C7143D49D7D983 /* SystemInfoCollector.m */,
+			);
+			name = Collectors;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -187,6 +194,7 @@
 				FB33482F8409F583B69F5189 /* MPCApplication.h in Headers */,
 				CD204DEA91CC1F024AD8AA45 /* MPCKernelExtension.h in Headers */,
 				842F42DB9020AB7D11DE8BC3 /* MPCLaunchItem.h in Headers */,
+				FCF046BD8D90E143581ED9CE /* SystemInfoCollector.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +291,7 @@
 				15144D25B2F55BB9589D58E9 /* MPCKernelExtension.m in Sources */,
 				53B94DCFBA4D1B7CF8BCF785 /* MPCLaunchItem.m in Sources */,
 				E1DE4B449C493839CEB92745 /* TaskRunnerTests.m in Sources */,
+				8037467BA0386F6CCCC6051F /* SystemInfoCollector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

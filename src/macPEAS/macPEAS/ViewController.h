@@ -7,8 +7,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
+@interface ViewController : NSViewController <NSOutlineViewDataSource, NSOutlineViewDelegate, NSTableViewDataSource, NSTableViewDelegate>
 
+@property (weak) IBOutlet NSOutlineView *sidebar;
+@property (weak) IBOutlet NSTableView *tableView;
 
 @end
 
