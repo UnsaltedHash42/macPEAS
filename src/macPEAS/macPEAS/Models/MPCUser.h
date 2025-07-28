@@ -8,9 +8,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *uid;
 @property (nonatomic, copy) NSString *gid;
 @property (nonatomic, copy) NSString *homeDirectory;
-@property (nonatomic, copy) NSString *shell;
-@property (nonatomic, copy) NSString *lastLogin;
-@property (nonatomic, copy) NSString *passwordPolicy;
 
 @end
 

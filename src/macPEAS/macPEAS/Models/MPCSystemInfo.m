@@ -3,11 +3,12 @@
 @implementation MPCSystemInfo
 
 @synthesize osVersion;
-@synthesize kernelInfo;
+@synthesize kernelVersion;
 @synthesize hostname;
 @synthesize uptime;
-@synthesize csrutilStatus;
-@synthesize spctlStatus;
-@synthesize installHistory;
+@synthesize cpuInfo;
+@synthesize sipStatus;
+@synthesize gatekeeperStatus;
+@synthesize xprotectVersion;
 
 @end 

@@ -2,7 +2,7 @@
 
 @implementation MPCGroup
 
-@synthesize groupName;
+@synthesize groupname;
 @synthesize gid;
 @synthesize members;
 

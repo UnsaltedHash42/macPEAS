@@ -3,9 +3,7 @@
 @implementation MPCLaunchItem
 
 @synthesize label;
-@synthesize program;
-@synthesize programArguments;
+@synthesize programPath;
 @synthesize runAtLoad;
-@synthesize path;
 
 @end 

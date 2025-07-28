@@ -3,8 +3,7 @@
 @implementation MPCApplication
 
 @synthesize name;
-@synthesize version;
 @synthesize path;
-@synthesize bundleIdentifier;
+@synthesize version;
 
 @end 

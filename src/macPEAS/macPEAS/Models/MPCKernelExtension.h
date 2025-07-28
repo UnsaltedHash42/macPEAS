@@ -6,8 +6,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSString *version;
-@property (nonatomic, copy) NSString *bundleIdentifier;
-@property (nonatomic, assign) BOOL isThirdParty;
+@property (nonatomic, copy) NSString *bundleID;
 
 @end
 

@@ -6,8 +6,5 @@
 @synthesize uid;
 @synthesize gid;
 @synthesize homeDirectory;
-@synthesize shell;
-@synthesize lastLogin;
-@synthesize passwordPolicy;
 
 @end 
