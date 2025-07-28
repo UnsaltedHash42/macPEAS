@@ -6,16 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3E294ED59F16F5E08E7946C6 /* TaskRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D4E08BE30C0F643A0F751 /* TaskRunner.m */; };
+		AB734C28B2B57CFB3E606776 /* TaskRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2341CBA979A417B284366B /* TaskRunner.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8F0877A22E36FE4C00A02DB3 /* macPEAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macPEAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2341CBA979A417B284366B /* TaskRunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TaskRunner.h; path = src/macPEAS/macPEAS/TaskRunner.h; sourceTree = SOURCE_ROOT; };
+		EC6D4E08BE30C0F643A0F751 /* TaskRunner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TaskRunner.m; path = src/macPEAS/macPEAS/TaskRunner.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8F0877A42E36FE4C00A02DB3 /* macPEAS */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = macPEAS;
-			sourceTree = "<group>";
-		};
+		8F0877A42E36FE4C00A02DB3 /* macPEAS */ = {isa = PBXFileSystemSynchronizedRootGroup; path = macPEAS; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +37,8 @@
 			children = (
 				8F0877A42E36FE4C00A02DB3 /* macPEAS */,
 				8F0877A32E36FE4C00A02DB3 /* Products */,
+				9F2341CBA979A417B284366B /* TaskRunner.h */,
+				EC6D4E08BE30C0F643A0F751 /* TaskRunner.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +52,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7999420C81684CAFD40040D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB734C28B2B57CFB3E606776 /* TaskRunner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		8F0877A12E36FE4C00A02DB3 /* macPEAS */ = {
 			isa = PBXNativeTarget;
@@ -55,6 +71,7 @@
 				8F08779E2E36FE4C00A02DB3 /* Sources */,
 				8F08779F2E36FE4C00A02DB3 /* Frameworks */,
 				8F0877A02E36FE4C00A02DB3 /* Resources */,
+				7999420C81684CAFD40040D0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -118,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E294ED59F16F5E08E7946C6 /* TaskRunner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
